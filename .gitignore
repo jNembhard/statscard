@@ -1,0 +1,8 @@
+# Sketch, Figma, XD
+*.sketch
+*.fig
+*.xd
+
+# DS_Store
+.DS_Store
+.prettierignore
