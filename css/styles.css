@@ -1,12 +1,12 @@
 body {
   font-family: "Inter", "Lexend Deca", sans-serif;
   font-size: 15px;
+  background-color: hsl(233, 47%, 7%);
 }
 
 @media (max-width: 420px) {
   body {
     overflow-x: hidden;
-    background-color: hsl(233, 47%, 7%);
   }
 }
 
@@ -14,17 +14,12 @@ body {
   font-size: 11px;
   text-align: center;
   background-color: white;
+  background-color: hsl(233, 47%, 7%);
+  color: hsla(0, 0%, 100%, 0.6);
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-@media (max-width: 420px) {
-  .attribution {
-    background-color: hsl(233, 47%, 7%);
-    color: hsla(0, 0%, 100%, 0.6);
-  }
 }
 
 .main {
@@ -32,7 +27,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 100px 200px;
+  margin: 0;
 }
 
 @media (max-width: 420px) {
